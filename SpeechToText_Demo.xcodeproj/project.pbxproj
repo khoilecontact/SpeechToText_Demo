@@ -16,6 +16,8 @@
 		223466C429EAC27200C0529A /* SpeechToText_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223466C329EAC27200C0529A /* SpeechToText_DemoTests.swift */; };
 		223466CE29EAC27200C0529A /* SpeechToText_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223466CD29EAC27200C0529A /* SpeechToText_DemoUITests.swift */; };
 		223466D029EAC27200C0529A /* SpeechToText_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223466CF29EAC27200C0529A /* SpeechToText_DemoUITestsLaunchTests.swift */; };
+		223466DD29EAC28000C0529A /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223466DC29EAC28000C0529A /* SpeechManager.swift */; };
+		223466DF29EACBD400C0529A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223466DE29EACBD400C0529A /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		223466C929EAC27200C0529A /* SpeechToText_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechToText_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		223466CD29EAC27200C0529A /* SpeechToText_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToText_DemoUITests.swift; sourceTree = "<group>"; };
 		223466CF29EAC27200C0529A /* SpeechToText_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToText_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		223466DC29EAC28000C0529A /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		223466DE29EACBD400C0529A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				223466B529EAC27100C0529A /* Assets.xcassets */,
 				223466B729EAC27100C0529A /* LaunchScreen.storyboard */,
 				223466BA29EAC27100C0529A /* Info.plist */,
+				223466DC29EAC28000C0529A /* SpeechManager.swift */,
+				223466DE29EACBD400C0529A /* Utils.swift */,
 			);
 			path = SpeechToText_Demo;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223466DF29EACBD400C0529A /* Utils.swift in Sources */,
 				223466B129EAC27000C0529A /* ViewController.swift in Sources */,
+				223466DD29EAC28000C0529A /* SpeechManager.swift in Sources */,
 				223466AD29EAC27000C0529A /* AppDelegate.swift in Sources */,
 				223466AF29EAC27000C0529A /* SceneDelegate.swift in Sources */,
 			);
